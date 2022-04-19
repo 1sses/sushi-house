@@ -1,8 +1,13 @@
 <template>
   <el-header>
-    <h1>Персональный учет по SushiHouse</h1>
-    <el-divider />
+    <el-row justify="space-between" align="middle">
+      <h1>Персональный учет по SushiHouse</h1>
+      <div>
+        <h2>Попробовано: {{items.reduce((acc, item) => item.rating ? ++acc : acc, 0)}} / {{items.length}}</h2>
+      </div>
+    </el-row>
   </el-header>
+  <el-divider />
   <el-main class="main">
     <SushiItem
       v-for="item in items"
@@ -76,6 +81,8 @@ main {
   display: flex !important;
   justify-content: center;
   flex-wrap: wrap;
+  row-gap: 40px;
   column-gap: 40px;
+  padding: 40px !important;
 }
 </style>

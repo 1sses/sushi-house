@@ -35,6 +35,7 @@ defineEmits(['edit'])
 .card {
   position: relative;
   width: 300px;
+  border-radius: 15px;
 }
 
 .edit-btn {
@@ -48,14 +49,15 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
-  margin-top: 0;
-  font-size: 16px;
+.composition {
+  height: 70px;
+  margin-bottom: 0;
+  font-size: 13px;
 }
 
-.composition {
-  font-size: 13px;
-  height: 70px;
+h3 {
+  margin: 0;
+  font-size: 16px;
 }
 
 .feedback {

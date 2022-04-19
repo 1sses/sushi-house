@@ -1,7 +1,7 @@
 <template>
   <el-dialog
     v-model="dialog"
-    width="400px"
+    width="600px"
   >
     <template #title>
       <h2 class="dialog-header">Редактировать<br> {{item.name}}</h2>
