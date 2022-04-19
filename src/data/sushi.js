@@ -3,7 +3,7 @@ export default [
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/444/553_475_2/8ckqoujuzy2z77kc90hrllz3iqfh0or9.webp?1648541111105923',
     name: 'Хот Ямато маки',
     composition: 'Лосось, сливочный сыр, авокадо, огурец',
-    rating: 4,
+    rating: 0,
     feedback: ''
   },
   {

@@ -38,7 +38,7 @@ const props = defineProps({
     required: true
   }
 })
-const emit = defineEmits(['update:modelValue'])
+const emit = defineEmits(['update:modelValue', 'save'])
 
 const dialog = computed({
   get: () => props.modelValue,
@@ -71,7 +71,7 @@ watch(props, () => {
 })
 
 const saveItem = () => {
-  console.log('saveItem', props.item.name, edited.value)
+  emit('save', props.item.name, edited.value)
 }
 </script>
 

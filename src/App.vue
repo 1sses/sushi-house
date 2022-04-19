@@ -10,15 +10,15 @@
       :item="item"
       @edit="editItem"
     />
-    <EditDialog v-model="dialog" :item="editData" />
+    <EditDialog v-model="dialog" :item="editData" @save="saveSushi" />
   </el-main>
 
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import SushiItem from '@/components/SushiItem'
-import items from '@/data/sushi'
+import sushi from '@/data/sushi'
 import EditDialog from '@/components/EditDialog'
 
 const dialog = ref(false)
@@ -29,6 +29,17 @@ const editData = ref({
   feedback: ''
 })
 
+const ratings = ref(JSON.parse(localStorage.getItem('sushi') || '[]'))
+
+const items = computed(() => sushi.map(item => {
+  const rating = ratings.value.find(r => r.name === item.name)
+  return {
+    ...item,
+    rating: rating ? rating.rating : 0,
+    feedback: rating ? rating.feedback : ''
+  }
+}))
+
 const editItem = (item) => {
   editData.value = {
     name: item.name,
@@ -36,6 +47,18 @@ const editItem = (item) => {
     feedback: item.feedback
   }
   dialog.value = true
+}
+
+const saveSushi = (name, { rating, feedback }) => {
+  const ratingItem = ratings.value.find(r => r.name === name)
+  if (ratingItem) {
+    ratingItem.rating = rating
+    ratingItem.feedback = feedback
+  } else {
+    ratings.value.push({ name, rating, feedback })
+  }
+  localStorage.setItem('sushi', JSON.stringify(ratings.value))
+  dialog.value = false
 }
 </script>
 
@@ -51,6 +74,7 @@ h1 {
 
 main {
   display: flex !important;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 40px;
 }
