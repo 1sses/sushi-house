@@ -1,5 +1,5 @@
 <template>
-  <el-header>
+  <el-header height="auto">
     <el-row justify="space-between" align="middle">
       <h1>Персональный учет по SushiHouse</h1>
       <div>
@@ -7,7 +7,7 @@
       </div>
     </el-row>
   </el-header>
-  <el-divider />
+  <el-divider style="margin: 10px 0" />
   <el-main class="main">
     <SushiItem
       v-for="item in items"
