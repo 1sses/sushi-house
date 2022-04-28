@@ -25,6 +25,11 @@ export default [
     composition: 'Креветка, сливочный сыр, огурец, зелёный лук, икра летучей рыбы'
   },
   {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/d35/553_475_2/o0ocjzk9ay37ah0z6lxkd064ci7kcm2l.webp?165054938045566',
+    name: 'Хот Тори маки',
+    composition: 'Цыплёнок Ким чи сливочный сыр, огурец, свежий перец, соус спайси'
+  },
+  {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/510/553_475_2/dfr1xnxf58vt365fbm397zdxabe147xo.webp?164854112376810',
     name: 'Хоккайдо маки',
     composition: 'Томат, базилик, сливочный сыр, салат'
@@ -230,6 +235,11 @@ export default [
     composition: 'Тунец, огурец, перец сладкий, салат, сливочный сыр, майонез, икра летучей рыбы, соус Терияки'
   },
   {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/d9f/553_475_2/n7wheat882h4k0p02kgx2ju96njc0c7o.webp?165089855962557',
+    name: 'Татаки намадзу маки',
+    composition: 'Акулий-сом, огурец, перец сладкий, салат, сливочный сыр, икра летучей рыбы, соус Терияки,  кунжут кимчи'
+  },
+  {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/9af/553_475_2/ablsmkl1z4oh60zyrfexn96325o62qsd.webp?164854119358873',
     name: 'Текка Каппа маки',
     composition: 'Тунец, сливочный сыр, огурец, соус Спайси'
@@ -315,6 +325,11 @@ export default [
     composition: 'Лосось, сливочный сыр'
   },
   {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/640/553_475_2/dz3p51gqh1bmxk70dzhzb4nuwrl6n8rc.webp?165089856051039',
+    name: 'Намадзу маки',
+    composition: 'Акулий сом'
+  },
+  {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/c62/553_475_2/dv21o4e8jtnuni8p72h3suz4ipkrsp3h.webp?164854122060329',
     name: 'Текка маки',
     composition: 'Тунец'
@@ -333,5 +348,15 @@ export default [
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/5e1/553_475_2/cpnzqwop2axfbt5997feagmb72co8xv3.webp?1648541246109599',
     name: 'Эби Уайт маки',
     composition: 'Креветка, сливочный сыр'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/84a/553_475_2/xk60qn8m3yndkm80kigdr118e43jt6ca.webp?165089855962725',
+    name: 'Наруто маки',
+    composition: 'Акулий сом, сливочный сыр, огурец, зелёный лук, укроп'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/7d9/553_475_2/9bl5t40hlkc8nz0sg1eoznteuctba8qc.webp?165089855948936',
+    name: 'Йокогама маки',
+    composition: 'Акулий-сом, сливочный сыр, авокадо, огурец'
   }
 ]
