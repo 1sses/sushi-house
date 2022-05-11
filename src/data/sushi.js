@@ -90,6 +90,11 @@ export default [
     composition: 'Лосось, сливочный сыр, водоросли маринованные, соус Ореховый, кунжут черный'
   },
   {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/84a/553_475_2/xk60qn8m3yndkm80kigdr118e43jt6ca.webp?165089855962725',
+    name: 'Наруто маки',
+    composition: 'Акулий сом, сливочный сыр, огурец, зелёный лук, укроп'
+  },
+  {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/b03/553_475_2/0qp02ma5khvn9scotd2n8cagiwyj1id8.webp?164854114946318',
     name: 'Флорида маки',
     composition: 'Тунец, сливочный сыр, салат Айсберг и кунжутное масло'
@@ -133,6 +138,11 @@ export default [
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/e2f/553_475_2/xh9wkdbdotj55kqyv5t95fjf7w73xe13.webp?1648541056119993',
     name: 'Куросаки маки',
     composition: 'Африканский сом, японский омлет, грибы, соус Спайси, сливочный сыр, такуан, соус Терияки'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/7d9/553_475_2/9bl5t40hlkc8nz0sg1eoznteuctba8qc.webp?165089855948936',
+    name: 'Йокогама маки',
+    composition: 'Акулий-сом, сливочный сыр, авокадо, огурец'
   },
   {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/bb2/553_475_2/uffna1ikz57949il8e6nw3xathumaqs4.webp?164854105690533',
@@ -348,15 +358,5 @@ export default [
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/5e1/553_475_2/cpnzqwop2axfbt5997feagmb72co8xv3.webp?1648541246109599',
     name: 'Эби Уайт маки',
     composition: 'Креветка, сливочный сыр'
-  },
-  {
-    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/84a/553_475_2/xk60qn8m3yndkm80kigdr118e43jt6ca.webp?165089855962725',
-    name: 'Наруто маки',
-    composition: 'Акулий сом, сливочный сыр, огурец, зелёный лук, укроп'
-  },
-  {
-    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/7d9/553_475_2/9bl5t40hlkc8nz0sg1eoznteuctba8qc.webp?165089855948936',
-    name: 'Йокогама маки',
-    composition: 'Акулий-сом, сливочный сыр, авокадо, огурец'
   }
 ]
