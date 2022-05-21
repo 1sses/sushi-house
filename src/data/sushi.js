@@ -30,6 +30,26 @@ export default [
     composition: 'Цыплёнок Ким чи сливочный сыр, огурец, свежий перец, соус спайси'
   },
   {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/659/553_475_2/k6nvpacbvdu7yuxalubhaqaytcmtnaz0.webp?1652863565113845',
+    name: 'Экивоки маки',
+    composition: 'Эко лосось (растительный), сливочным сыр, салат айсберг, огурец, авокадо, чипсы бекона, соус Терияки'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/7f7/553_475_2/oc5xzanpex34y4net4r0fx2xh20ez57b.webp?165286356691689',
+    name: 'Тори Чизу маки',
+    composition: 'Цыпленок ким-чи, сливочный сыр, огурец, сыр чеддер, картофель пай, соус Цезарь'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/9d5/553_475_2/zhdx1uwxh0dwli80xeg4q0vuwddwccm3.webp?165286356694963',
+    name: 'Бифу Чизу маки',
+    composition: 'Говядина, сливочный сыр, томат Понзу, салат айсберг, сыр чеддер'
+  },
+  {
+    image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/d54/553_475_2/wao5or4q2zsk9n6pvgt54lx5qczat9qb.webp?165286356691492',
+    name: 'Батакон маки',
+    composition: 'Бекон обпаленный, сливочный сыр, зелёный лук, сыр чеддер, соус Терияки'
+  },
+  {
     image: 'https://sushihouse.by/upload/resize_cache/webp/iblock/510/553_475_2/dfr1xnxf58vt365fbm397zdxabe147xo.webp?164854112376810',
     name: 'Хоккайдо маки',
     composition: 'Томат, базилик, сливочный сыр, салат'
