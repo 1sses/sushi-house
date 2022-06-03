@@ -1,7 +1,7 @@
 <template>
   <el-header height="auto">
     <el-row justify="space-between" align="middle">
-      <h1>Персональный учет по SushiHouse</h1>
+      <h1>Персональный учет по SushiHouse 2</h1>
       <div>
         <h2>Попробовано: {{items.reduce((acc, item) => item.rating ? ++acc : acc, 0)}} / {{items.length}}</h2>
       </div>
